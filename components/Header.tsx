@@ -3,13 +3,13 @@ import Link from "next/link";
 
 const navLinks = [
   { href: "/", label: "Home" },
-  { href: "/services", label: "Services" },
-  { href: "/contact", label: "Contact" },
+  { href: "/#services", label: "Services" },
+  { href: "/#contact", label: "Contact" },
 ];
 
 export default function Header() {
   return (
-    <header className="border-b border-border bg-surface">
+    <header className="sticky top-0 z-50 border-b border-border bg-surface">
       <div className="mx-auto flex max-w-5xl items-center justify-between px-6 py-4">
         <Link href="/" className="shrink-0">
           <Image

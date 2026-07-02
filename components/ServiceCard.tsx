@@ -12,13 +12,7 @@ const icons: Record<Service["icon"], React.ReactNode> = {
   ),
 };
 
-export default function ServiceCard({
-  service,
-  detailed = false,
-}: {
-  service: Service;
-  detailed?: boolean;
-}) {
+export default function ServiceCard({ service }: { service: Service }) {
   return (
     <div className="flex flex-col gap-4 rounded-2xl border border-border bg-surface p-6">
       <div className="flex h-11 w-11 items-center justify-center rounded-full bg-accent/10 text-accent">
@@ -38,9 +32,8 @@ export default function ServiceCard({
       </div>
       <h3 className="text-lg font-semibold text-foreground">{service.title}</h3>
       <p className="text-sm italic text-accent-dark">{service.tagline}</p>
-      <p className="text-sm leading-relaxed text-muted">
-        {detailed ? service.detail : service.shortDescription}
-      </p>
+      <p className="text-sm leading-relaxed text-muted">{service.shortDescription}</p>
+      <p className="text-sm leading-relaxed text-muted">{service.detail}</p>
     </div>
   );
 }

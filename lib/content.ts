@@ -100,8 +100,6 @@ export const testimonials: Testimonial[] = [
   },
 ];
 
-export const homeTestimonials = testimonials.slice(0, 3);
-
 export type Logo = {
   name: string;
   src: string;
