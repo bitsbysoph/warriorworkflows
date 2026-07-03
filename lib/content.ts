@@ -16,7 +16,7 @@ export const services: Service[] = [
     tagline:
       "Great teams deserve tools that actually work for them, and not the other way around.",
     detail:
-      "For teams in events, sports, and tech who are new to AI or feeling overwhelmed by it, I help build a practical, sustainable path forward — right-sized tools and workflows your team will actually use, without complexity for complexity's sake.",
+      "If you are new to AI or feeling overwhelmed by it, I help build a practical, sustainable path forward — right-sized tools and workflows your team will actually use, without complexity for complexity's sake.",
     icon: "workflow",
   },
   {
@@ -132,7 +132,7 @@ export const site = {
   heroIntro:
     "Hi, I'm Sophia. I help teams in events, sports, and tech spend less time fighting their own processes and more time doing the work that matters — through practical AI tools, better team communication, and hands-on operational support.",
   about:
-    "My background spans aviation, large-scale event management, and high-pressure live operations. Across every one of those worlds, the pattern was the same: the best results come from practical, user-focused solutions, not the fanciest tool on the market. I bring that same grounded approach to every team I work with.",
+    "My background spans aviation, large-scale event management, and high-pressure live operations. Across every one of those worlds, the pattern was the same: the best results come from practical, user-focused solutions, not the fanciest tool on the market. I bring that same grounded approach to every team I work with. Don't just take my word for it. See what the people I've worked with have to say about me.",
   founderBlurb:
     "With over a decade of experience across sports, events, and tech, I've learned that small changes, when done right, make a big difference. I'm not here to sell you a five-year transformation plan — I'm here to find the one or two things that will actually move the needle for your team.",
   consultationTopics: [

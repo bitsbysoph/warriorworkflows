@@ -40,7 +40,10 @@ export default function Home() {
         </div>
       </section>
 
-      <section id="services" className="scroll-mt-20 mx-auto max-w-5xl px-6 py-16">
+      <section
+        id="services"
+        className="scroll-mt-20 mx-auto max-w-5xl px-6 py-16"
+      >
         <h2 className="text-center text-2xl font-semibold text-foreground sm:text-3xl">
           How I Can Help
         </h2>
@@ -64,7 +67,7 @@ export default function Home() {
 
       <section className="mx-auto max-w-5xl px-6 py-16">
         <h2 className="text-center text-2xl font-semibold text-foreground sm:text-3xl">
-          What Clients Say
+          What They Say
         </h2>
         <div className="mt-10 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
           {testimonials.map((testimonial) => (
@@ -92,8 +95,8 @@ export default function Home() {
               Free 30-Minute Consultation
             </h3>
             <p className="mt-2 text-sm text-muted">
-              A friendly and honest chat about where you are and where you want to
-              be. We&apos;ll cover:
+              A friendly and honest chat about where you are and where you want
+              to be. We&apos;ll cover:
             </p>
             <ul className="mt-4 space-y-2 text-sm text-muted">
               {site.consultationTopics.map((topic) => (
