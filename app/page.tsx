@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import ServiceCard from "@/components/ServiceCard";
 import Testimonial from "@/components/Testimonial";
@@ -56,12 +57,26 @@ export default function Home() {
 
       <section className="bg-surface">
         <div className="mx-auto max-w-3xl px-6 py-16">
-          <h2 className="text-2xl font-semibold text-foreground sm:text-3xl">
-            About Me
-          </h2>
-          <p className="mt-6 text-base leading-relaxed text-muted">
-            {site.about}
-          </p>
+          <div className="flex flex-col items-center gap-8 text-center sm:flex-row sm:items-start sm:text-left">
+            <div className="relative h-32 w-32 shrink-0 overflow-hidden rounded-full ring-4 ring-background sm:h-40 sm:w-40">
+              <Image
+                src="/sophia-128.jpeg"
+                alt="Sophia, founder of Warrior Workflows"
+                fill
+                sizes="(min-width: 640px) 160px, 128px"
+                className="object-cover"
+                priority
+              />
+            </div>
+            <div>
+              <h2 className="text-2xl font-semibold text-foreground sm:text-3xl">
+                About Me
+              </h2>
+              <p className="mt-6 text-base leading-relaxed text-muted">
+                {site.about}
+              </p>
+            </div>
+          </div>
         </div>
       </section>
 

@@ -47,6 +47,7 @@ export type Testimonial = {
   quote: string;
   name: string;
   role: string;
+  image?: string;
 };
 
 export const testimonials: Testimonial[] = [
@@ -55,48 +56,56 @@ export const testimonials: Testimonial[] = [
       "Right here is a pillar of any organization's success. She is not just good. She is something special.",
     name: "Bashir Ahmad",
     role: "Owner | Tiger Eye MMA",
+    image: "/profile-images/bashir.jpeg",
   },
   {
     quote:
       "Sophia's contribution to MONOPOLY: HIDDEN Singapore was invaluable. Her work provided the essential creative springboard and foundation for the final experience – highly imaginative, incredibly responsive, and a brilliant asset for any team needing fast-paced conceptual thinking. I highly recommend her!",
     name: "Shawn Tan",
     role: "Head of Partnerships and Channels | The HIDDEN Group",
+    image: "/profile-images/shawn.jpeg",
   },
   {
     quote:
       "The work that Sophia does is in a different league. I am so grateful for her invaluable support and top notch refinement that she has done for our course materials. If you are looking for expert guidance in developing training programs, do not hesitate to reach out to Sophia!",
     name: "Pascal Didier Jean-Michel",
     role: "Program Director | Global Cutman Training",
+    image: "/profile-images/pascal.png",
   },
   {
     quote:
       "Without a doubt, Sophia is exceptional. Put a task in front of her and she will get it done, but even more valuable is her ingenuity and drive. On so many occasions, Sophia has implemented new processes and protocols to help improve the team. Any organization would be fortunate to have Sophia on their side.",
     name: "Richard Auty",
     role: "Vice President | ONE Championship",
+    image: "/profile-images/richard.png",
   },
   {
     quote:
       "Sophia brings structure and clarity to complex operational processes, ensuring that all moving parts of the show run seamlessly. Her ability to coordinate across multiple teams, manage timelines, and anticipate challenges was instrumental in delivering a smooth experience. What truly stood out was Sophia's calm and decisive approach under pressure. No matter the situation, she remained composed, solutions-focused, and highly responsive, which instilled confidence across the entire team. Beyond operational excellence, Sophia fostered a collaborative and positive working environment. She communicated clearly, supported team members, and led by example — earning the respect and trust of everyone involved.",
     name: "Wendy Ng",
     role: "Executive Director | Presplay",
+    image: "/profile-images/wendy.jpeg",
   },
   {
     quote:
       "I have had the pleasure of knowing Sophia for several years and worked with her in a previous role. When I learned that she was launching her own consultancy, I was among the first clients to seek her advice. Her professionalism, innovative approach, and unwavering commitment to resolving issues consistently impress me. Her determination and problem-solving skills are truly admirable.",
     name: "Nasyita Jumari",
     role: "Manager, Sports Business Development and Major Events | Kallang Alive",
+    image: "/profile-images/nasyita.jpeg",
   },
   {
     quote:
       "If it wasn't for Sophia, I would probably still be dealing with the aftermath of a disgruntled customer who threatened to post on social media. After getting Sophia's insights and help into drafting the correct recovery message and proper next steps, we saw an immediate 180° change in the customer's attitude. We even received an email of gratitude from the customer!",
     name: "Nadiah L",
     role: "Assistant Manager | Ticket Sales & Distribution Company",
+    image: "/profile-images/nadiah.jpeg",
   },
   {
     quote:
       "Sophia is exceptional and relentless at the tasks at hand. I have had the great pleasure of working alongside her through the thick and thin, even through the challenging early days of COVID. Her tireless effort and drive for the athletes, team, and company is second to none.",
     name: "Warren Wang MD",
     role: "Board Member | Ringside ARP",
+    image: "/profile-images/warren.jpeg",
   },
 ];
 
@@ -132,9 +141,9 @@ export const site = {
   heroIntro:
     "Hi, I'm Sophia. I help teams in events, sports, and tech spend less time fighting their own processes and more time doing the work that matters — through practical AI tools, better team communication, and hands-on operational support.",
   about:
-    "My background spans aviation, large-scale event management, and high-pressure live operations. Across every one of those worlds, the pattern was the same: the best results come from practical, user-focused solutions, not the fanciest tool on the market. I bring that same grounded approach to every team I work with. Don't just take my word for it. See what the people I've worked with have to say about me.",
+    "My background spans aviation, tech, large-scale event management, and high-pressure live operations. Across every one of those worlds, the pattern was the same: the best results come from practical, user-focused solutions, not the fanciest tool on the market. I bring this same grounded approach to every team I work with. Don't just take my word for it. See what the people I've worked with have to say about me.",
   founderBlurb:
-    "With over a decade of experience across sports, events, and tech, I've learned that small changes, when done right, make a big difference. I'm not here to sell you a five-year transformation plan — I'm here to find the one or two things that will actually move the needle for your team.",
+    "With over a decade of experience across sports, events, and tech, I've learned that small changes, when done right, make a big difference. You don't need a five-year transformation plan to feel the difference. I'm here to help you find the one or two things that will actually move the needle for your team.",
   consultationTopics: [
     "Where your current processes and pain points are",
     "Opportunities to improve — through process changes, AI tools, or operational support",

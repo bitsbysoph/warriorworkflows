@@ -32,7 +32,9 @@ export default function ServiceCard({ service }: { service: Service }) {
       </div>
       <h3 className="text-lg font-semibold text-foreground">{service.title}</h3>
       <p className="text-sm italic text-accent-dark">{service.tagline}</p>
-      <p className="text-sm leading-relaxed text-muted">{service.shortDescription}</p>
+      <p className="text-sm leading-relaxed font-medium text-muted">
+        {service.shortDescription}
+      </p>
       <p className="text-sm leading-relaxed text-muted">{service.detail}</p>
     </div>
   );
